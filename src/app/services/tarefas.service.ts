@@ -16,7 +16,7 @@ export interface ApiResponseError {
 
 export type ApiResponse<T> = ApiResponseSuccess<T> | ApiResponseError;
 
-export const API_URL = 'http://localhost:3000'; 
+export const API_URL = 'https://felipe-fattocs.azurewebsites.net'; 
 
 @Injectable({
   providedIn: 'root',
